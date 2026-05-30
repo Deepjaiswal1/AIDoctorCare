@@ -15,10 +15,10 @@ import { toast } from "sonner"
 export type SessionDetail = {
   id: number
   notes: string
-  sessionId: string
+  sessionId: string 
   report: any
   selectedDoctor: doctorAgent
-  createOn: string
+  createdOn: string
 }
 
 type messages = {

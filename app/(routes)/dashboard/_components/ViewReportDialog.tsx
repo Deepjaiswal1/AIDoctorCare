@@ -65,7 +65,7 @@ const ViewReportDialog = ({ record }: props) => {
                     <div><span className='font-semibold'>User:</span> {report.user}</div>
                     {/* SYNC: Using record.createdOn from DB instead of report.timestamp */}
                     <div>
-                      <span className='font-semibold'>Date:</span> {record.createOn ? moment(record.createOn).format('MMMM Do YYYY, h:mm a') : 'N/A'}
+                      <span className='font-semibold'>Date:</span> {record.createdOn ? moment(record.createdOn).format('MMMM Do YYYY, h:mm a') : 'N/A'}
                     </div>
                   </div>
                 </section>
