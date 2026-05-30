@@ -39,7 +39,7 @@ const HistoryTable = ({ historyList }: Props) => {
               </TableCell>
               <TableCell>{record.notes}</TableCell>
               <TableCell>
-                {moment(new Date(record.createdOn)).fromNow()}
+                {moment(new Date(record.createOn)).fromNow()}
               </TableCell>
               <TableCell className="text-right">
                 <ViewReportDialog record={record}/>
